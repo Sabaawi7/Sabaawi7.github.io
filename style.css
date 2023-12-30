@@ -1,28 +1,153 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+
 .header {
-  text-align: center;
+  background-color: #bee9f9;
 }
-.content {
-  text-align: center;
+nav {
+  background-color: hsla(193, 56%, 43%, 0.9);
+  position: sticky;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  
+}
+
+nav * {
+  display: inline-block;
+}
+
+nav h1{
+  margin-left: 10px;
+  margin-top: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black;
+  font-size: 40px;
 }
 
 
-
-
-
-.usama-button {
-  border: 1px solid black;
-  background-color: rgba(152, 222, 235, 0.5);
-  cursor: pointer;
+.nav-list{
+  margin-top: 0px;
+  float: right;
+}
+.nav-item{
+  align-items: end;
+  display: inline-block;
+  height: 100px;
   padding: 20px;
-  font-size: 18px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.usama-button:visited {
-  
+.nav-item a{
+  margin-top: 12.5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
 }
 
-.usama-button:hover {
-  background-color: rgb(152, 222, 235)
-  
+.nav-item:hover {
+  background-color: #90cda2;
 }
 
+.profile-pic {
+  display:block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid black;  
+}
+
+.banner {
+  height: 450px;
+}
+
+.banner h2{
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+}
+
+.main {
+  background-color: white;
+}
+
+
+.main-item {
+  display: inline-block;
+  width: 28%;
+  margin: 2%;
+  vertical-align: top;
+}
+
+.main-item p {
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.image-container {
+  position: relative;
+  padding: 40px;
+}
+
+#projects img{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+  border: 2px solid white;
+  transition-timing-function: ease-in;
+}
+
+#projects img:hover{
+  z-index: 100;
+  cursor: pointer;
+}
+
+#automation-pic {
+  position: relative;
+  bottom: 315px;
+  right: 15px;
+  z-index: 1;
+}
+
+
+
+.main-item h3 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.socials img{
+  width: 29%;
+  margin: 1%;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  height: 60px;
+  background-color: black;
+  z-index: 7;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 25px;
+}

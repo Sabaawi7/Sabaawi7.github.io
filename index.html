@@ -1,16 +1,61 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="./style.css" />
+  <title>Mo's Port</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
   <div class="header">
-  <h1>Mohammed Sabaawi</h1>
-  <p>Welcome to my website!</p>
+    <nav>
+      <h1 class="website-name">Mohammed Sabaawi</h1>
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#whoami">Who am I?</a></li>
+        <li class="nav-item"><a href="#projects">Projects</a></li>
+        <li class="nav-item"><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="banner">
+      <img class="Profile-pic" src="ProfilePic.png" />
+      <h2>Welcome To My Portfolio</h2>
+    </section>
   </div>
-  <div class="content">
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-  <h2><button type="button" class="usama-button" onclick="location.href='https://sabaawi7.github.io/usama.html'">Click here</button></h2>
-  </div>
+  <main class="main">
+    <div class="main-item" id="projects">
+      <div class="text-content">
+        <h3>My Projects</h3>
+        <p>I love working on automation and optimzation. <br>Feel free to discover yourself by clicking on the projects below</p>
+      </div>
+      <div class="image-container">
+        <img id="ai-pic" src="ai-cloud-concept-with-robot-arm.jpg" />
+        <img id="automation-pic" src="automation-pic.jpg" />
+      </div>
+      </div>
+    <div class="main-item" id="whoami">
+      <h3>Who am I?</h3>
+      <p>Hi, My Name is Mohammed and I love business. <br>
+      I was born in Iraq, went on a youth exchange program called <em>IYLEP</em> in 2015 and it opened my perspective horizon
+      Since then, I started to code and to help my community with some projects.
+      Back Then, I had started my own blog about Technology, i named it <em>Muhammed Tech</em>. however due to 
+      polticial problems in Iraq my family and i moved to germany, where i finished my school in 2020 and started studying
+      information systems or as we call it in germany <em>Wirtschaftsinformatik</em>. That's when i got my passion back
+      and decided to push it further. Currently i am learning the Full Stack Engineer Path on CodeCademy to discover more options.
+      I want to become an IT-Consulatant and have a specialiazation in <strong>Automation & Optimization</strong>.
+      I hope you enjoy clicking around and if anything feel free to contact me on my socials on the right side.
+      </p>
+    </div>
+    <div class="main-item" id="Contact">
+      <h3>Contact</h3>
+      <p>You can contact me on:</p>
+      <div class="socials">
+        <a id="instagram" href="https://www.instagram.com/sabaawi.7"> <img src="instagram.png"/></a>
+        <a id="email" href="mailto: mohammedsabaawi@gmail.com"> <img src="gmail.png"/></a>
+        <a id="linkedin" href="https://www.linkedin.com/in/sabaawi7"> <img src="linkedin.png"/></a>
+        
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>© Copyright 2023 - Website by Mohammed Sabaawi</p>
+  </footer>
 </body>
 
 </html>
