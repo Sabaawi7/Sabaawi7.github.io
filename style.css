@@ -102,29 +102,24 @@ nav h1 a {
   text-justify: inter-word;
 }
 .image-container {
-  position: relative;
-  padding: 40px;
+  margin-top: 30px;
+  
 }
 
 #projects img{
-  position: relative;
-  width: 300px;
-  height: 300px;
+  width: 32%;
+  aspect-ratio: 1 /1 ;
   border-radius: 5%;
   border: 2px solid white;
-  transition-timing-function: ease-in;
+  transition: transform 0.5s ease-out;
+  
 }
+
 
 #projects img:hover{
-  z-index: 100;
+  z-index: 10;
   cursor: pointer;
-}
-
-#automation-pic {
-  position: relative;
-  bottom: 315px;
-  right: 15px;
-  z-index: 1;
+  transform: scale(1.5,1.5);
 }
 
 
@@ -140,6 +135,12 @@ nav h1 a {
 .socials img{
   width: 29%;
   margin: 1%;
+  transition: transform 0.5s ease;
+}
+
+.socials img:hover{
+  transform: scale(1.5,1.5);
+
 }
 
 footer {
